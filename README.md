@@ -1,6 +1,6 @@
 # Projeto de POO (Space Invaders)
 
-Esse repositório é focado para o projeto final de POO. O objetivo foi criar um jogo com a engine disponibilizada pelo Professor Victor Oliveira. Utilizando atributos do que foi aprendido em sala de aula (Herança, Composição, Polimorfismo e Encapsulamento).
+Esse repositório é focado para o projeto final de POO. O objetivo foi criar um jogo com a engine disponibilizada pelo Professor Victor Oliveira. Utilizando atributos do que foi aprendido em sala de aula (Herança, Abstração, Polimorfismo e Encapsulamento).
 
 # The ASCII Game Engine
 Apenas uma Engine para criação de jogos em ASCII usando a biblioteca padrão de C++.
