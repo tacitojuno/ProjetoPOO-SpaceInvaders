@@ -9,7 +9,7 @@ using namespace std;
 
 void Fase1::init(){
 
-    hero = new Hero(ObjetoDeJogo("Hero", Sprite("rsc/hero.txt"), 42, 80), 10, 2);
+    hero = new Hero(ObjetoDeJogo("Hero", Sprite("rsc/hero.txt"), 42, 80), 20, 2);
     objs.push_back(hero);
 
     countEnemy = 0;
@@ -24,7 +24,7 @@ void Fase1::init(){
     SpriteBase *tmp=const_cast<SpriteBase*>(objs.back()->getSprite());
     vida = dynamic_cast<TextSprite*>(tmp);
 
-    objs.push_back(new ObjetoDeJogo("Ataques", TextSprite("0/10"),4,30 ));
+    objs.push_back(new ObjetoDeJogo("Ataques", TextSprite("0/20"),4,30 ));
     SpriteBase *tmp2=const_cast<SpriteBase*>(objs.back()->getSprite());
     ataques = dynamic_cast<TextSprite*>(tmp2);
 
